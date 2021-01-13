@@ -79,5 +79,5 @@ theme: icarus
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:ZengHGitHub/ZengHGitHub.github.io.git
+  repo: github.com/ZengHGitHub/ZengHGitHub.github.io.git
   branch: master
