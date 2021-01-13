@@ -5,4 +5,4 @@ categories: Professional
 tags: mysql
 ---
 
-![image-20210113221548548](D:\Data\GitCode\MyBlog\source\_posts\MySQL45讲学习心得\image-20210113221548548.png)
+![image-20210113221548548](\MySQL45讲学习心得\image-20210113221548548.png)
