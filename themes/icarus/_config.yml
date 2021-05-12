@@ -202,7 +202,7 @@ donates:
 share:
     type: addtoany
     # URL to the ShareThis share plugin script
-    install_url: ''
+    # install_url: ''
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -231,7 +231,7 @@ widgets:
         # URL or path to the avatar image
         avatar: 
         # Whether show the rounded avatar image
-        avatar_rounded: false
+        avatar_rounded: true
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
