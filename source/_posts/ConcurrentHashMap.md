@@ -4,13 +4,7 @@ date: 2021-11-22 19:29:02
 categories: [Professional,Java,Java集合]
 tags: [Java集合,线程安全,CAS,Volatile]
 ---
-# ConcurrentHashMap
-
-　　#Java# #Java/Java 基础# #Java/集合# #Map# #线程安全# #CAS# #Volatile#
-
 > ConcurrentHashMap 的基本实现逻辑与 {% post_link HashMap %}  相似，数组 + 链表 + {% post_link 红黑树  %}。
-
-<!-- more -->
 
 1. ## 历史版本
 
@@ -29,18 +23,22 @@ tags: [Java集合,线程安全,CAS,Volatile]
     ```
 
     Segment 继承于 {% post_link ReentrantLock %} ，在 put 操作时，先根据 hash 计算索引定位到具体的 Segment，然后在操作时只需要锁住相应 Segment 就可以了。
+
+    <!-- more -->
+
     jdk1.8 中还保留了 segment 主要是兼容低版本 jdk。
     Segment 的个数最多只有 16（默认 16）,默认负载因子 0.75，==扩容只针对某个 Segment 的内部，Segment 初始化后不会变动==。
     有一点需要注意，ConcurrentHashMap ==先判断是否需要扩容，等扩容完成后插入值。==
     put 操作不允许 `key = null` 和 `value = null`。
     ConcurrentHashMap 的 get 操作是没有加锁的，原因在于变量都使用 {% post_link Volatile %} 修饰。
+
     ```Java
     /**
          * The array of bins. Lazily initialized upon first insertion.
          * Size is always a power of two. Accessed directly by iterators.
          */
     transient volatile Node<K,V>[] table;
-
+    
         /**
          * The next table to use; non-null only while resizing.
          */

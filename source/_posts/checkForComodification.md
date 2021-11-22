@@ -5,8 +5,6 @@ categories: [Professional,Java,Java集合]
 tags: [Java,Java集合,迭代器,常见异常]
 ---
 
-checkForComodification
-
 ```Java
 //执行这段代码是会抛出异常 ConcurrentModificationException
 for (String str : list) {   

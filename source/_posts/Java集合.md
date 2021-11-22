@@ -7,8 +7,6 @@ categories: [Professional,Java,Java集合]
 tags: [Java,Java集合,数据结构,线程安全]
 ---
 
-Java集合
-
 1. ## **Java 集合关系**
 
 　　![](https://cdn.jsdelivr.net/gh/ZengHGitHub/imgs/img/202111101642332.png)

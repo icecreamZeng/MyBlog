@@ -5,8 +5,6 @@ categories: [Professional,Java,Java集合]
 tags: [Java,Java集合,数据结构,线程安全,CopyOnWriteArrayList,Queue,Set]
 ---
 
-# Collections. SynchronizedList ()、CopyOnWriteArrayList 与 Vector 有什么区别？
-
 
 > `Collections. SynchronizedList ()` 、 `CopyOnWriteArrayList` 和 `Vector` 都是线程安全的集合。
 >
@@ -22,7 +20,7 @@ tags: [Java,Java集合,数据结构,线程安全,CopyOnWriteArrayList,Queue,Set]
      	elementData[elementCount++] = e;  
      	return true;  
      }
-
+    
     ```
 
 <!-- more -->
