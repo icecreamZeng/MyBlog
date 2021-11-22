@@ -48,5 +48,5 @@ pagination_dir: page
 theme: icarus
 deploy:
   type: git
-  repo: github.com/ZengHGitHub/ZengHGitHub.github.io.git
+  repo: github.com/icecreamZeng/icecreamZeng.github.io.git
   branch: master

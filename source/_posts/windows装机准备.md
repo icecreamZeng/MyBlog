@@ -43,7 +43,7 @@ tags: [Windows , 装机软件]
 
 8. 一些免安装的工具，放到同一个开始文件夹中，应该在OneDrive中都能找到
 
-   ![免安装工具](windows装机准备/1561734560265.png)
+   ![](https://cdn.jsdelivr.net/gh/icecreamZeng/imgs/img/202111221955954.png)
 
 9. TIM （文件位置设置）
 

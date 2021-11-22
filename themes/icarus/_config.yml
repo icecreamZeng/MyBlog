@@ -7,7 +7,7 @@ logo: /img/logo.svg
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: /img/favicon.svg
+    favicon: /img/辛巴狗.jpg
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
@@ -225,7 +225,7 @@ widgets:
         # Author name
         author: 冰淇淋流泪
         # Author title
-        author_title: 不积硅步无以至千里，不积小流无以成江海。
+        author_title: 合抱之木,生于毫末； 九层之台,起于累土； 千里之行,始于足下。
         # Author's current location
         location: 浙江 杭州
         # URL or path to the avatar image
@@ -235,12 +235,12 @@ widgets:
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
-        follow_link: 'https://github.com/ZengHGitHub'
+        follow_link: 'https://github.com/icecreamZeng'
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: 'https://github.com/ZengHGitHub'
+                url: 'https://github.com/icecreamZeng'
             # Facebook:
             #     icon: fab fa-facebook
             #     url: 'https://facebook.com'
@@ -397,3 +397,5 @@ providers:
     iconcdn: fontawesome
 busuanzi:  
     enable: true
+toc:
+    maxDepth: 3 
