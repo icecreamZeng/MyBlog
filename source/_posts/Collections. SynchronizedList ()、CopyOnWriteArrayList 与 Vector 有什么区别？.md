@@ -25,6 +25,8 @@ tags: [Java,Java集合,数据结构,线程安全,CopyOnWriteArrayList,Queue,Set]
 
     ```
 
+<!-- more -->
+
 2. ## Collections. SynchronizedList ()
 
     当使用 `Collections. SynchronizedList ()` 方法创建线程安全的 `List` 时，会根据 List 类型（时候实现了 {% post_link RandomAccessas %} 接口）返回 `SynchronizedRandomAccessList` 和 `SynchronizedList`，前者继承于后者，两者在使用上并无差别。

@@ -9,7 +9,8 @@ tags: [Java集合,线程安全,CAS,Volatile]
 　　#Java# #Java/Java 基础# #Java/集合# #Map# #线程安全# #CAS# #Volatile#
 
 > ConcurrentHashMap 的基本实现逻辑与 {% post_link HashMap %}  相似，数组 + 链表 + {% post_link 红黑树  %}。
->
+
+<!-- more -->
 
 1. ## 历史版本
 
