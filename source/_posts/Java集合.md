@@ -1,6 +1,5 @@
 ---
 title: Java集合
-cover: https://cdn.jsdelivr.net/gh/ZengHGitHub/imgs/img/202111101642332.png
 thumbnail: https://cdn.jsdelivr.net/gh/ZengHGitHub/imgs/img/202111101642332.png
 date: 2021-11-22 19:16:35
 categories: [Professional,Java,Java集合]
