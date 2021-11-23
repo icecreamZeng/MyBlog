@@ -1,7 +1,7 @@
 ---
 title: ConcurrentHashMap
 date: 2021-11-22 19:29:02
-update: 2021-11-22 19:29:02
+updated: 2021-11-22 19:29:02
 categories: [Professional,Java,Java集合]
 tags: [Java集合,线程安全,CAS,Volatile]
 ---

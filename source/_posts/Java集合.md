@@ -2,7 +2,7 @@
 title: Java集合
 thumbnail: https://cdn.jsdelivr.net/gh/ZengHGitHub/imgs/img/202111101642332.png
 date: 2021-11-22 19:16:35
-update: 2021-11-22 19:16:35
+updated: 2021-11-22 19:16:35
 categories: [Professional,Java,Java集合]
 tags: [Java,Java集合,数据结构,线程安全]
 ---

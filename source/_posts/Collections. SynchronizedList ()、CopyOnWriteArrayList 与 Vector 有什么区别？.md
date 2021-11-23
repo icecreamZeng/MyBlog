@@ -1,7 +1,7 @@
 ---
 title: Collections. SynchronizedList ()、CopyOnWriteArrayList 与 Vector 有什么区别？
 date: 2021-11-22 19:19:33
-update: 2021-11-22 19:19:33
+updated: 2021-11-22 19:19:33
 categories: [Professional,Java,Java集合]
 tags: [Java,Java集合,数据结构,线程安全,CopyOnWriteArrayList,Queue,Set]
 ---

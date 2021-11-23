@@ -409,5 +409,5 @@ providers:
     iconcdn: fontawesome
 busuanzi:  
     enable: true
-metadata:
+config:
   toc: true
