@@ -1,6 +1,7 @@
 ---
 title: windows装机准备
 date: 2019-06-28 23:50:54
+update: 2019-06-28 23:50:54
 categories: Person 
 tags: [Windows , 装机软件]
 ---

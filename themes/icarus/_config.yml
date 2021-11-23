@@ -158,6 +158,22 @@ search:
     type: insight
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
+comment:
+    type: gitalk
+    client_id: 8224999d9125e6b43d81
+    client_secret: 9b5aba45ecf72d02979a0de66ff6fd5d5bf5891d
+    repo: MyBlog
+    owner: icecreamZeng
+    admin:
+        - icecreamZeng
+    per_page: 20                    # 可选填
+    distraction_free_mode: false    # 可选填
+    pager_direction: last           # 可选填
+    create_issue_manually: false    # 可选填
+    proxy:                          # 可选填
+    flip_move_options:              # 可选填
+    enable_hotkey: true             # 可选填
+    language: zh-CN                 # 可选填
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
@@ -393,5 +409,5 @@ providers:
     iconcdn: fontawesome
 busuanzi:  
     enable: true
-toc:
-    maxDepth: 3 
+metadata:
+  toc: true
