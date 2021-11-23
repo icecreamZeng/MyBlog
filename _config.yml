@@ -50,3 +50,5 @@ deploy:
   type: git
   repo: github.com/icecreamZeng/icecreamZeng.github.io.git
   branch: master
+metadata:
+  toc: true
