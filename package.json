@@ -11,6 +11,7 @@
     "express": "^4.17.1",
     "hexo": "^5.4.0",
     "hexo-asset-image": "git+https://github.com/CodeFalling/hexo-asset-image.git",
+    "hexo-cli": "^4.3.0",
     "hexo-component-inferno": "^0.11.2",
     "hexo-deployer-git": "^3.0.0",
     "hexo-generator-archive": "^1.0.0",
